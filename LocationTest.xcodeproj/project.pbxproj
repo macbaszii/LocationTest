@@ -18,6 +18,7 @@
 		2D23FC15162D59270015A4A3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D23FC14162D59270015A4A3 /* Default-568h@2x.png */; };
 		2D23FC18162D59270015A4A3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D23FC16162D59270015A4A3 /* MainStoryboard.storyboard */; };
 		2D23FC1B162D59270015A4A3 /* BDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D23FC1A162D59270015A4A3 /* BDViewController.m */; };
+		2D23FC22162D59EA0015A4A3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D23FC21162D59EA0015A4A3 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		2D23FC17162D59270015A4A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		2D23FC19162D59270015A4A3 /* BDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDViewController.h; sourceTree = "<group>"; };
 		2D23FC1A162D59270015A4A3 /* BDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDViewController.m; sourceTree = "<group>"; };
+		2D23FC21162D59EA0015A4A3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D23FC22162D59EA0015A4A3 /* CoreLocation.framework in Frameworks */,
 				2D23FBFF162D59260015A4A3 /* UIKit.framework in Frameworks */,
 				2D23FC01162D59260015A4A3 /* Foundation.framework in Frameworks */,
 				2D23FC03162D59260015A4A3 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +76,7 @@
 		2D23FBFD162D59260015A4A3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2D23FC21162D59EA0015A4A3 /* CoreLocation.framework */,
 				2D23FBFE162D59260015A4A3 /* UIKit.framework */,
 				2D23FC00162D59260015A4A3 /* Foundation.framework */,
 				2D23FC02162D59260015A4A3 /* CoreGraphics.framework */,

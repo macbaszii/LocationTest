@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BDViewController : UIViewController
+@interface BDViewController : UIViewController <CLLocationManagerDelegate>
+
+@property (nonatomic, weak) IBOutlet UILabel *latitudeLabel;
+@property (nonatomic, weak) IBOutlet UILabel *longtitudeLabel;
 
 @end
